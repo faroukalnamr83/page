@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(207, 234, 225);
+    border: slategrey solid 6px;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-right: 15px;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+img {
+    border-radius: 15px;
+    border: slategrey ridge 5px;
+    cursor: pointer;
+    border-left: 10px;
+    height: 16vh;
+}
+
+hr {
+    background-color: grey;
+    height: 4px;
+}
