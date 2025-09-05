@@ -1,0 +1,95 @@
+/* <a href="singin.html" target="_blank">login</a> */
+body{
+ 
+
+    background-image: url("log.jpg");
+
+   background-repeat: no-repeat;
+
+}
+
+form{
+    animation:inp 700ms ease infinite;
+
+align-self: center;
+    border:solid black 3px ;
+    text-align:left;
+padding:4px 50px;
+    color: rgb(0, 0, 0);
+    line-height: 29px;
+box-shadow: 0px 8px 40px 5px  rgba(161, 21, 8, 0.684);
+width:30%;
+height:95%;
+margin:  10% 25%;
+background-color: rgba(9, 78, 207, 0.0);
+border-radius: 5px;
+/* border-color: rgb(107, 173, 186); */
+}
+input{
+    
+    width:90%;
+    height: 30px;
+    line-height: 300px;
+    border-radius: 10px;
+
+}
+input:hover{
+    background-color: rgb(130, 206, 209);
+}
+input:active{
+    background-color: rgb(51, 118, 152);
+}
+::placeholder{
+text-align: left;
+}
+
+.submit{
+background-color: rgb(112, 216, 216);
+width: 90px;
+margin-left: 35%;
+height: 30px;
+border-radius: 10px;
+
+font-size: 24px;
+cursor: grab;
+animation: subm 2m ease infinite;
+}
+
+
+
+.checkinput{
+height: 15px;
+width: 20px;
+
+white-space: 4px;
+
+}
+.textlogin{
+    text-align: center;
+font-family: 'log' ,sans-serif;
+font-size: 40px;
+
+color: rgb(255, 255, 255);
+}
+@font-face {
+    font-family: 'summer';
+    src: url('RubikDistressed-Regular.ttf') format(truetype);
+    
+}
+@keyframes spin{
+
+to {transform:  rotate(360deg) scale(2);}
+}
+
+@keyframes subm {
+    form 0%{transform: scale(1.1); background-color:rgb(174, 218, 174); }
+    to 25%{transform: scale(1.02); background-color:green; }
+    50%{transform: scale(1.03); background-color:rgb(165, 54, 199); }
+    75%{transform: scale(1.04); background-color:rgb(48, 101, 130); }
+    100%{transform: scale(1.05); background-color:rgb(91, 139, 165);}
+    `
+}
+@font-face{
+    font-family: 'log';
+    src: url(Declander-Demo.ttf) format(truetype);
+}

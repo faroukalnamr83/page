@@ -1,14 +1,65 @@
+body{
+    background-color: rgb(193, 248, 238);
+    border: 2px solid black;
+    height: 80%;
+    width: 99%;
+
+}
+a{
+    text-decoration: none;
+    font-size: 24px;
+}
+.div1{
+    flood-color: brown;
+    min-height:200px;
+    max-height: 250px;
+    min-width:200px;
+    max-width: 250px;
+background-color: rgb(182, 168, 231);
+display: grid;
+text-shadow:5px 1px 2px rebeccapurple;
+}
+.div2{
+    display: inline-block;
+    min-height:100px;
+    min-height:200px;
+    max-height: 250px;
+    min-width:200px;
+    max-width: 250px;
+    background-color: rgb(181, 248, 232);
+}
+ .div3{
+
+    min-height:200px;
+    max-height: 250px;
+    min-width:200px;
+    max-width: 250px;
+ background-color: rgb(52, 228, 161);
+ display: inline-block;
+}
+ .div4{
+    min-height:200px;
+    max-height: 250px;
+    min-width:200px;
+    max-width: 250px;
+    background-color: rgb(52, 184, 228);
+display: inline-block;
+}
+.container{
+    
+   
+    align-content: center;
+height: 50vh;
+
+grid-template-areas: 20px 20px 200px 20px;
+display: grid;
+}
+section{
+    background-color: rgb(239, 202, 153);
+text-align: center;
 
 
-.contact{
-
-    height: 30px;
-    width: 120px;
-    border: 3px groove rgb(132, 214, 241);
-margin-bottom: 100px;
- 
-    display: inline;
-    padding-bottom: 100px;
-    box-shadow: 5px;
-
+}
+span{
+    
 }
